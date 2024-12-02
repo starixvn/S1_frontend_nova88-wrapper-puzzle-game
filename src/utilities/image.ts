@@ -1,0 +1,12 @@
+export const IMG_1 = require("../assets/image/1.jpeg");
+export const IMG_2 = require("../assets/image/3.jpeg");
+export const IMG_3 = require("../assets/image/2.jpeg");
+export const IMG_4 = require("../assets/image/4.jpeg");
+export const IMG_5 = require("../assets/image/5.jpeg");
+export const IMG_6 = require("../assets/image/6.jpeg");
+export const IMG_7 = require("../assets/image/7.jpeg");
+export const IMG_8 = require("../assets/image/9.jpg");
+export const IMG_9 = require("../assets/image/8.jpeg");
+export const IMG_10 = require("../assets/image/10.jpeg");
+export const IMG_11 = require("../assets/image/11.jpeg");
+export const IMG_12 = require("../assets/image/12.jpeg");

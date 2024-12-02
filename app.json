@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "puzzleGames",
+    "slug": "puzzleGames",
+    "version": "1.0.9",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "infoPlist": {
+        "UIBackgroundModes": ["fetch", "remote-notification"],
+        "NSFaceIDUsageDescription": "This app will optionally use Face ID or Touch ID to save login",
+        "UISupportedInterfaceOrientations": [
+          "UIInterfaceOrientationPortrait",
+          "UIInterfaceOrientationLandscapeLeft",
+          "UIInterfaceOrientationLandscapeRight",
+          "UIInterfaceOrientationPortraitUpsideDown"
+        ],
+        "EXDefaultScreenOrientationMask": "UIInterfaceOrientationMaskAll",
+        "NSCameraUsageDescription": "Give $(PRODUCT_NAME) permission to access your camera",
+        "NSMicrophoneUsageDescription": "Give $(PRODUCT_NAME) permission to use your microphone",
+        "NSPhotoLibraryUsageDescription": "Give $(PRODUCT_NAME) permission to save photos",
+        "CodePushDeploymentKey": "c9G75GsLQsNF8Iw6J7SCpEVakGpbWG0S-rxZd"
+      },
+      "config": {
+        "branch": {
+          "apiKey": "key_live_kiZLsIX3dXaqiTSBx7yZzdjlyDfKpnsa"
+        }
+      },
+      "bundleIdentifier": "com.puzzleGames.apps"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "googleServicesFile": "./google-services.json",
+      "package": "com.puzzleGames.apps",
+      "config": {
+        "branch": {
+          "apiKey": "key_live_kiZLsIX3dXaqiTSBx7yZzdjlyDfKpnsa"
+        }
+      }
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/crashlytics",
+      "@notifee/react-native",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ],
+      "@config-plugins/react-native-branch"
+    ]
+  }
+}

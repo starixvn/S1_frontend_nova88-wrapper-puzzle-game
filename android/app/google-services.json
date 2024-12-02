@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1044739109526",
+    "project_id": "puzzle-game-9da77",
+    "storage_bucket": "puzzle-game-9da77.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044739109526:android:d47c31d3adca55503d08b7",
+        "android_client_info": {
+          "package_name": "com.puzzleGames.apps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1044739109526-gbctdpiismjg8tluvj46gacd959hdge8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwjnbrZYUY8YMCWB0UZ_iNwhlKvriGVIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1044739109526-gbctdpiismjg8tluvj46gacd959hdge8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1044739109526-va05n36avsl6vokj04nfrraok9mo9dp4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.puzzleGames.apps"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
